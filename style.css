@@ -1,44 +1,26 @@
 *{
-    padding: 0%;
     box-sizing: border-box;
-    margin: 0;
+    padding: 0%;
+    margin: 0%;
 }
 body{
-    background-color: darkgray;
-}
-nav{
-    background-color: black;
-}
-h1{
-    text-align: center;
-    font-size: 48px;
-    color: white;
-    margin: 0px 0px 35px 0px;
-}
-.book-card img{
-    margin-top: 10px;
-    width: 200px;
+    background-color: dimgray;
 }
 .container{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
 }
-.book-card{
-    /* background-color: rgb(161, 206, 248); */
-    padding: 15px;
-    border-radius: 25px;
-    width: 17%;
+.container-title{
     text-align: center;
-    border: 5px ridge white;
-}
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    font-size: 24px;
-    background-color: rgb(0, 0, 0);
     color: white;
+    background-color: rgb(24, 59, 98);
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+}
+.container-content{
     text-align: center;
-  }
+    color: white;
+    /* background-color: cornsilk; */
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+}
