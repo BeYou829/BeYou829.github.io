@@ -107,6 +107,7 @@ main div h1 {
     font-size: 1.2em;
     color: rgb(90, 90, 90);
     margin-bottom: 25px;
+    letter-spacing: 2px;
 }
 
 .pricing-item strong {
@@ -117,14 +118,20 @@ main div h1 {
 .pricing-item button {
     width: 9rem;
     padding: .5rem .7rem;
-    border: 1px solid rgb(90, 90, 90);
+    border: 1px solid #023877;
+    color: #023877;
+    font-weight: 600;
     border-radius: 10px;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+}
+
+.pricing-item button:hover,
+.pricing-item button:focus {
+    background: #bbdaf6;
     cursor: pointer;
 }
 
-.pricing-item button:nth-of-type(2) {
-    background: #000;
-}
 
 .pricing-item span {
     font-size: 2rem;
@@ -157,6 +164,10 @@ hr {
 
     .pricing-title {
         margin-bottom: 30px;
+    }
+
+    .pricing-item img {
+        width: 128px;
     }
 
     .pricing-item {
